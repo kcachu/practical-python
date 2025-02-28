@@ -25,6 +25,6 @@ while principal > 0:
        total_paid += extra_payment
 
 
-   print(month, round(total_paid, 2), round(principal, 2)) 
+   print(f'{month} {total_paid:02f} {principal:02f}') 
 
-print('Total paid', round(total_paid, 2), 'over', month, 'months')
+print(f'Total paid: {total_paid:02f} over {month} months')
